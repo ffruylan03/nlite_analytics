@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NLITE.ETL.API.props" />
+</Project>

@@ -1,0 +1,13 @@
+// ENABLE EF COMMAND
+dotnet tool install --global dotnet-ef
+
+
+// CREATE TABLE
+dotnet ef migrations add initial -o Infrastructure/Persistence/Migrations -v
+
+
+// UPDATE TABLE
+dotnet ef database update -v
+
+// REMOVE TABLE
+dotnet ef migrations remove -v
