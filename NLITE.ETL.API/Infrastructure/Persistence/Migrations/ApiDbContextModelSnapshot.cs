@@ -24,16 +24,14 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
 
             modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.Category", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Code")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("nvarchar(10)");
+                        .HasMaxLength(250)
+                        .HasColumnType("nvarchar(250)");
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
@@ -48,16 +46,14 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.Matric", b =>
+            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMatric", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("uniqueidentifier");
 
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("CategoryId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
@@ -68,17 +64,17 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                     b.Property<int>("Minimum")
                         .HasColumnType("int");
 
-                    b.Property<int>("Value")
+                    b.Property<int>("Score")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Matrics");
+                    b.ToTable("GameMatrics");
                 });
 
-            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.Matric", b =>
+            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMatric", b =>
                 {
                     b.HasOne("NLITE.ETL.API.Domain.Entities.Category", "Category")
                         .WithMany("Matrics")

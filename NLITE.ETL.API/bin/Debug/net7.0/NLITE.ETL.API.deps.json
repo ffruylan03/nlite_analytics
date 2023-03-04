@@ -18,7 +18,8 @@
           "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
           "NSwag.AspNetCore": "13.18.2",
-          "Serilog.AspNetCore": "6.1.0"
+          "Serilog.AspNetCore": "6.1.0",
+          "TinyCsvParser": "2.7.0"
         },
         "runtime": {
           "NLITE.ETL.API.dll": {}
@@ -1338,6 +1339,14 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "TinyCsvParser/2.7.0": {
+        "runtime": {
+          "lib/net6.0/TinyCsvParser.dll": {
+            "assemblyVersion": "2.7.0.0",
+            "fileVersion": "2.7.0.0"
+          }
+        }
+      },
       "YamlDotNet/11.2.1": {
         "runtime": {
           "lib/netstandard2.1/YamlDotNet.dll": {
@@ -2319,6 +2328,13 @@
       "sha512": "sha512-lJ8AxvkX7GQxpC6GFCeBj8ThYVyQczx2+f/cWHJU8tjS7YfI6Cv6bon70jVEgs2CiFbmmM8b9j1oZVx0dSI2Ww==",
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "TinyCsvParser/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-XkEfUXFcR+4wUXLCIPwJKt4bBqe5KClZQQvmlHaN3ExlD4omiRPgO6ySJ6NyOheYB/p9XvoJuc/h96+AhJ1KcQ==",
+      "path": "tinycsvparser/2.7.0",
+      "hashPath": "tinycsvparser.2.7.0.nupkg.sha512"
     },
     "YamlDotNet/11.2.1": {
       "type": "package",

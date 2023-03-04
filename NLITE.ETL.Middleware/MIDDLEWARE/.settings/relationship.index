@@ -1,0 +1,104 @@
+[ {
+  "baseItem" : {
+    "id" : "_Ofj2cLOgEe2SvZPHD_e8Cg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_uLw0kLY0Ee2RZOBEUGgnvw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uLw0kLY0Ee2RZOBEUGgnvw - radford",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xjoBwLVDEe2NOunQEp4dFA - radford_metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_TepSwLVlEe2NOunQEp4dFA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_EYLNULR9Ee2WwtInZPN7Iw - MatricLookup",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xjoBwLVDEe2NOunQEp4dFA - radford_metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_oHrTcLU9Ee23MNf-tsBJeA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_EYLNULR9Ee2WwtInZPN7Iw - MatricLookup",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wcb1ELkFEe2JjIZPX2DoLQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "built-in",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_uLw0kLY0Ee2RZOBEUGgnvw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_uLw0kLY0Ee2RZOBEUGgnvw - radford",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_xjoBwLVDEe2NOunQEp4dFA - radford_metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

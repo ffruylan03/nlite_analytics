@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_EYXakLR9Ee2WwtInZPN7Iw" name="MatricLookup" id="_EYLNULR9Ee2WwtInZPN7Iw" dataPackage="_EYXakbR9Ee2WwtInZPN7Iw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fermin/Projects/pif/repos/nlite_analytics/NLITE.ETL.Middleware/dump/lookup/Game Data Metrics Key.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FooterValue="0" LimitValue="" FirstLineCaption="true" RemoveEmptyRow="true" EscapeChar="&quot;\&quot;&quot;" TextEnclosure="&quot;\&quot;&quot;" FieldSeparatorType="Comma" splitRecord="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_EYXakbR9Ee2WwtInZPN7Iw" name="default" dataManager="_EYXakLR9Ee2WwtInZPN7Iw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_EYXakrR9Ee2WwtInZPN7Iw" id="_rGzPsLR8Ee2WwtInZPN7Iw" label="MatricLookup">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EYXak7R9Ee2WwtInZPN7Iw" label="Code" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EYXalLR9Ee2WwtInZPN7Iw" label="Description" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EYXalbR9Ee2WwtInZPN7Iw" label="Minimum" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EYXalrR9Ee2WwtInZPN7Iw" label="Maximum" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_EYXal7R9Ee2WwtInZPN7Iw" label="Score" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

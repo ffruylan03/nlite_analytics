@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite.etl\\NLITE.ETL.API\\NLITE.ETL.API.csproj": {}
+    "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\NLITE.ETL.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite.etl\\NLITE.ETL.API\\NLITE.ETL.API.csproj": {
+    "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\NLITE.ETL.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite.etl\\NLITE.ETL.API\\NLITE.ETL.API.csproj",
+        "projectUniqueName": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\NLITE.ETL.API.csproj",
         "projectName": "NLITE.ETL.API",
-        "projectPath": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite.etl\\NLITE.ETL.API\\NLITE.ETL.API.csproj",
+        "projectPath": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\NLITE.ETL.API.csproj",
         "packagesPath": "C:\\Users\\Fermin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite.etl\\NLITE.ETL.API\\obj\\",
+        "outputPath": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Fermin\\AppData\\Roaming\\NuGet\\NuGet.Config",

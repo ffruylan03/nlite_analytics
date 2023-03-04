@@ -6,7 +6,7 @@ dotnet tool install --global dotnet-ef
 dotnet ef migrations add initial -o Infrastructure/Persistence/Migrations -v
 
 
-// UPDATE TABLE
+// UPDATE Database
 dotnet ef database update -v
 
 // REMOVE TABLE

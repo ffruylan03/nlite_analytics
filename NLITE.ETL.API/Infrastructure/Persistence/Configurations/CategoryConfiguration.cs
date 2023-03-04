@@ -9,7 +9,7 @@ public class CategoryConfiguration : IEntityTypeConfiguration<Category>
     public void Configure(EntityTypeBuilder<Category> builder)
     {
         builder.Property(p => p.Code)
-            .HasMaxLength(10)
+            .HasMaxLength(250)
             .IsRequired();
 
         builder.Property(p => p.Description)

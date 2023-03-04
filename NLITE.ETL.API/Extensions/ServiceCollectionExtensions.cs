@@ -36,8 +36,7 @@ public static class ServiceCollectionExtensions
 
     public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration config)
     {
-        var connectionString = config.GetConnectionString("Default");
-        services.AddDbContext<ApiDbContext>(options => options.UseSqlServer(connectionString));
+        services.AddDbContext<ApiDbContext>(c => c.UseSqlServer(config.GetConnectionString("Default")));
 
         return services;
     }

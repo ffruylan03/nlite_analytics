@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <TalendMetadata:DatabaseConnection xmi:id="_Epw_8LP2Ee2SvZPHD_e8Cg" name="SQLServer" id="_kAeZkLP1Ee2SvZPHD_e8Cg" label="SQLServer" dataPackage="_EvGy8LP2Ee2SvZPHD_e8Cg" DatabaseType="Microsoft SQL Server" DriverClass="net.sourceforge.jtds.jdbc.Driver" URL="jdbc:jtds:sqlserver://localhost:1433/stagedb;" dbVersionString="JTDS" Port="1433" Username="sa" Password="enc:system.encryption.key.v1:ZHP/zbCOoNkHL7brqtMZwRtFoYhRbw51/xh5ZDrU9AINaObiZw==" ServerName="localhost" DatasourceName="" FileFieldName="" SID="stagedb" SqlSynthax="" StringQuote="" NullChar="" DbmsId="id_MSSQL" ProductId="SQL_SERVER" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="dbo">
+    <taggedValue xmi:id="_EpyOELP2Ee2SvZPHD_e8Cg" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_EqFJALP2Ee2SvZPHD_e8Cg" tag="package filter" value=""/>
+    <taggedValue xmi:id="_EqLPoLP2Ee2SvZPHD_e8Cg" tag="Status" value=""/>
+    <taggedValue xmi:id="_EqLPobP2Ee2SvZPHD_e8Cg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_EqL2sLP2Ee2SvZPHD_e8Cg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_EqL2sbP2Ee2SvZPHD_e8Cg" tag="Description" value=""/>
+    <taggedValue xmi:id="_EqL2srP2Ee2SvZPHD_e8Cg" tag="Author" value=""/>
+    <taggedValue xmi:id="_EqL2s7P2Ee2SvZPHD_e8Cg" tag="otherParameter"/>
+    <taggedValue xmi:id="_ErxLELP2Ee2SvZPHD_e8Cg" tag="DB ProductName" value="Microsoft SQL Server"/>
+    <taggedValue xmi:id="_ErxLEbP2Ee2SvZPHD_e8Cg" tag="DB ProductVersion" value="16.00.4003"/>
+    <taggedValue xmi:id="_ErxLErP2Ee2SvZPHD_e8Cg" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_EpyOEbP2Ee2SvZPHD_e8Cg" key="CONN_PARA_KEY_USERNAME" value="sa"/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_EvGy8LP2Ee2SvZPHD_e8Cg" name="stagedb" dataManager="_Epw_8LP2Ee2SvZPHD_e8Cg">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_EvIBELP2Ee2SvZPHD_e8Cg" name="dbo"/>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>

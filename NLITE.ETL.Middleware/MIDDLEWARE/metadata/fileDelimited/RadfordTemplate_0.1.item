@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_xjuIYLVDEe2NOunQEp4dFA" name="RadfordTemplate" dataPackage="_xjuIYbVDEe2NOunQEp4dFA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fermin/Projects/pif/repos/nlite_analytics/NLITE.ETL.Middleware/dump/Away Game vs Gardner-Webb University Event.csv" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" RemoveEmptyRow="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_xjuIYbVDEe2NOunQEp4dFA" name="default" dataManager="_xjuIYLVDEe2NOunQEp4dFA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_xjuIYrVDEe2NOunQEp4dFA" id="_H6LpgLVDEe2NOunQEp4dFA" label="Radford">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIY7VDEe2NOunQEp4dFA" label="Event_Date" length="10" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIZLVDEe2NOunQEp4dFA" label="Event_Description" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIZbVDEe2NOunQEp4dFA" label="Player_Name" length="19" talendType="id_String" nullable="false" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIZrVDEe2NOunQEp4dFA" label="Event_Type" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIZ7VDEe2NOunQEp4dFA" label="Event_Location" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIaLVDEe2NOunQEp4dFA" label="Event_Result" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIabVDEe2NOunQEp4dFA" label="Event_Tags" length="23" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIarVDEe2NOunQEp4dFA" label="Segment_Name" length="1" talendType="id_Character" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIa7VDEe2NOunQEp4dFA" label="Performance_Duration__min" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIbLVDEe2NOunQEp4dFA" label="Total_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIbbVDEe2NOunQEp4dFA" label="Walk_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIbrVDEe2NOunQEp4dFA" label="Jog_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIb7VDEe2NOunQEp4dFA" label="Run_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIcLVDEe2NOunQEp4dFA" label="Sprint_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIcbVDEe2NOunQEp4dFA" label="Sprint_Efforts" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIcrVDEe2NOunQEp4dFA" label="Zone_1_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIc7VDEe2NOunQEp4dFA" label="Zone_2_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIdLVDEe2NOunQEp4dFA" label="Zone_3_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIdbVDEe2NOunQEp4dFA" label="Zone_4_Distance__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIdrVDEe2NOunQEp4dFA" label="Zone_5_Distance__m" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuId7VDEe2NOunQEp4dFA" label="Zone_6_Distance__m" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIeLVDEe2NOunQEp4dFA" label="Zone_7_Distance__m" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIebVDEe2NOunQEp4dFA" label="Zone_8_Distance__m" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIerVDEe2NOunQEp4dFA" label="Hard_Running__m" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIe7VDEe2NOunQEp4dFA" label="Hard_Running_Efforts" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIfLVDEe2NOunQEp4dFA" label="Work_Rate__m_min" length="-1" precision="4" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIfbVDEe2NOunQEp4dFA" label="Top_Speed__m_s" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIfrVDEe2NOunQEp4dFA" label="Intensity" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIf7VDEe2NOunQEp4dFA" label="Impact_Light" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIgLVDEe2NOunQEp4dFA" label="Impact_Medium" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIgbVDEe2NOunQEp4dFA" label="Impact_Heavy" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIgrVDEe2NOunQEp4dFA" label="Load_2D" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIg7VDEe2NOunQEp4dFA" label="Load_3D" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIhLVDEe2NOunQEp4dFA" label="HR_Mean__bpm" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIhbVDEe2NOunQEp4dFA" label="HR_Max__bpm" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIhrVDEe2NOunQEp4dFA" label="HR_Grey_Zone" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIh7VDEe2NOunQEp4dFA" label="HR_Blue_Zone" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIiLVDEe2NOunQEp4dFA" label="HR_Green_Zone" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIibVDEe2NOunQEp4dFA" label="HR_Yellow_Zone" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIirVDEe2NOunQEp4dFA" label="HR_Red_Zone" length="-1" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xjuIi7VDEe2NOunQEp4dFA" label="HR_Efficiency__m_beat" length="-1" precision="3" talendType="id_BigDecimal" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

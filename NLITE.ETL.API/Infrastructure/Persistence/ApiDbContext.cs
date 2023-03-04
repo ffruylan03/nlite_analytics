@@ -21,7 +21,7 @@ public class ApiDbContext : DbContext
     }
 
     public DbSet<Category> Categories => Set<Category>();
-    public DbSet<Matric> Matrics => Set<Matric>();
+    public DbSet<GameMatric> GameMatrics => Set<GameMatric>();
 
     public async Task BeginTransactionAsync()
     {
