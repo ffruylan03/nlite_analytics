@@ -31,8 +31,8 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                 {
                     Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     CategoryId = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    Minimum = table.Column<int>(type: "int", nullable: false),
-                    Maximum = table.Column<int>(type: "int", nullable: false),
+                    Minimum = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
+                    Maximum = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     Score = table.Column<int>(type: "int", nullable: false),
                     Created = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },

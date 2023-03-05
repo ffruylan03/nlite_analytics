@@ -1,0 +1,28 @@
+﻿Code,Description
+PERF_DURATION,Performance Duration [min]
+TTL_DISTANCE,Total Distance [m]
+WALK_DISTANCE,Walk Distance [m]
+JOG_DISTANCE,Jog Distance [m]
+RUN_DISTANCE,Run Distance [m]
+SPRINT_DISTANCE,Sprint Distance [m]
+SPRINT_EFFORTS,Sprint Efforts
+ZONE1,Zone 1 Distance 
+ZONE2,Zone 2 Distance 
+ZONE3,Zone 3 Distance 
+ZONE4,Zone 4 Distance 
+HARD_RUN,Hard Running [m]
+HARD_RUN_EFFORT,Hard Running Efforts
+WORK_RATE,Work Rate [m/min]
+TOP_SPEED,Top Speed [m/s]
+INTENSITY,Intensity
+IMPACT_LIGHT,Impact Light
+LOAD_2D,Load 2D
+LOAD_3D,Load 3D
+HR_MEAN,HR Mean [BPM]
+HR_MAX,HR Max [BPM]
+HR_GREY,HR Grey Zone [%]
+HR_BLUE,HR Blue Zone [%]
+HR_GREEN,HR Green Zone [%]
+HR_YELLOW,HR Yellow Zone [%]
+HR_RED,HR Red Zone [%]
+HR_EFFICIENCY,HR Efficiency [m/beat]

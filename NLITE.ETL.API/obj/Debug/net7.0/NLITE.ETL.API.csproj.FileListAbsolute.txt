@@ -195,3 +195,4 @@ C:\Users\Fermin\Projects\pif\repos\nlite_analytics\NLITE.ETL.API\obj\Debug\net7.
 C:\Users\Fermin\Projects\pif\repos\nlite_analytics\NLITE.ETL.API\obj\Debug\net7.0\NLITE.ETL.API.pdb
 C:\Users\Fermin\Projects\pif\repos\nlite_analytics\NLITE.ETL.API\obj\Debug\net7.0\NLITE.ETL.API.genruntimeconfig.cache
 C:\Users\Fermin\Projects\pif\repos\nlite_analytics\NLITE.ETL.API\obj\Debug\net7.0\ref\NLITE.ETL.API.dll
+C:\Users\Fermin\Projects\pif\repos\nlite_analytics\NLITE.ETL.API\bin\Debug\net7.0\NLITE.ETL.API.staticwebassets.runtime.json

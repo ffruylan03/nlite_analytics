@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\files\\seed\\GameMetricKey.csv",
+      "PackagePath": "staticwebassets\\files\\seed\\GameMetricKey.csv"
+    },
+    {
+      "Id": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\files\\seed\\categories.csv",
+      "PackagePath": "staticwebassets\\files\\seed\\categories.csv"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.NLITE.ETL.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.NLITE.ETL.API.props",
+      "PackagePath": "build\\NLITE.ETL.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.NLITE.ETL.API.props",
+      "PackagePath": "buildMultiTargeting\\NLITE.ETL.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.NLITE.ETL.API.props",
+      "PackagePath": "buildTransitive\\NLITE.ETL.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

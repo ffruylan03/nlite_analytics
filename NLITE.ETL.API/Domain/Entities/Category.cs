@@ -12,5 +12,5 @@ public class Category : BaseEntity
     public string Code { get; private set; }
     public string Description { get; private set; }
 
-    public ICollection<GameMatric> Matrics { get; set; } = new HashSet<GameMatric>();
+    public ICollection<GameMetric> Matrics { get; set; } = new HashSet<GameMetric>();
 }

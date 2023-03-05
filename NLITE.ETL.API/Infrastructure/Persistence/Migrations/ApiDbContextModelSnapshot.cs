@@ -46,7 +46,7 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMatric", b =>
+            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMetric", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -58,11 +58,11 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("Maximum")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Maximum")
+                        .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Minimum")
-                        .HasColumnType("int");
+                    b.Property<decimal>("Minimum")
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<int>("Score")
                         .HasColumnType("int");
@@ -74,7 +74,7 @@ namespace NLITE.ETL.API.Infrastructure.Persistence.Migrations
                     b.ToTable("GameMatrics");
                 });
 
-            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMatric", b =>
+            modelBuilder.Entity("NLITE.ETL.API.Domain.Entities.GameMetric", b =>
                 {
                     b.HasOne("NLITE.ETL.API.Domain.Entities.Category", "Category")
                         .WithMany("Matrics")

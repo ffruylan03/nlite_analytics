@@ -4,9 +4,9 @@ using NLITE.ETL.API.Domain.Entities;
 
 namespace NLITE.ETL.API.Infrastructure.Persistence.Configurations;
 
-public class GameMatricConfiguration : IEntityTypeConfiguration<GameMatric>
+public class GameMetricConfiguration : IEntityTypeConfiguration<GameMetric>
 {
-    public void Configure(EntityTypeBuilder<GameMatric> builder)
+    public void Configure(EntityTypeBuilder<GameMetric> builder)
     {
         builder.HasOne(x => x.Category)
             .WithMany(x => x.Matrics)

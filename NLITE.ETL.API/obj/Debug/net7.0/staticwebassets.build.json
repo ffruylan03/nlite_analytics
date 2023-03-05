@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "SIPbKmUzLkjRfXQDxMnPNC5AXkeF9ft84DXRiJVvgIg=",
+  "Hash": "BZG2B3u2TZkCga57DzQm6DmwkK3WoyRYMv3YOtoGxv8=",
   "Source": "NLITE.ETL.API",
   "BasePath": "_content/NLITE.ETL.API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "NLITE.ETL.API\\wwwroot",
+      "Source": "NLITE.ETL.API",
+      "ContentRoot": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\",
+      "BasePath": "_content/NLITE.ETL.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\files\\seed\\categories.csv",
+      "SourceId": "NLITE.ETL.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\",
+      "BasePath": "_content/NLITE.ETL.API",
+      "RelativePath": "files/seed/categories.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\seed\\categories.csv"
+    },
+    {
+      "Identity": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\files\\seed\\GameMetricKey.csv",
+      "SourceId": "NLITE.ETL.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Fermin\\Projects\\pif\\repos\\nlite_analytics\\NLITE.ETL.API\\wwwroot\\",
+      "BasePath": "_content/NLITE.ETL.API",
+      "RelativePath": "files/seed/GameMetricKey.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\files\\seed\\GameMetricKey.csv"
+    }
+  ]
 }
