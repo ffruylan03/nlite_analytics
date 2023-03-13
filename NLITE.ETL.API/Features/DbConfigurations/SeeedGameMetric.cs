@@ -9,7 +9,7 @@ public class SeeedGameMetric : ICarterModule
 {
     public void AddRoutes(IEndpointRouteBuilder app)
     {
-        app.MapPost("api/configurations/seeder/gamemetrics", async (HttpRequest req, IMediator mediator) =>
+        app.MapPost("api/configurations/seeder/gamemetrics", async (IMediator mediator) =>
         {
             return await mediator.Send(new CreateCommand());
         })

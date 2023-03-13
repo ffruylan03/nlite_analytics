@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_4sWo0LOfEe2SvZPHD_e8Cg" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_4sWo0bOfEe2SvZPHD_e8Cg" bindingContexts="_4sWo2rOfEe2SvZPHD_e8Cg">
   <tags>activeSchemeId:org.talend.core.scheme</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_4sWo0bOfEe2SvZPHD_e8Cg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_5txCgLOfEe2SvZPHD_e8Cg" x="-1689" y="159" width="1454" height="914">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_4sWo0bOfEe2SvZPHD_e8Cg" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_5txCgLOfEe2SvZPHD_e8Cg" x="0" y="0" width="1454" height="618">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -53,9 +53,9 @@
               </children>
             </children>
             <children xsi:type="basic:PartSashContainer" xmi:id="_50LMibOfEe2SvZPHD_e8Cg" containerData="8417" selectedElement="_50LMirOfEe2SvZPHD_e8Cg" horizontal="true">
-              <children xsi:type="basic:PartSashContainer" xmi:id="_50LMirOfEe2SvZPHD_e8Cg" containerData="7826" selectedElement="_50LMjLOfEe2SvZPHD_e8Cg">
-                <children xsi:type="advanced:Placeholder" xmi:id="_50LMi7OfEe2SvZPHD_e8Cg" elementId="org.eclipse.ui.editorss" containerData="5482" ref="_5z0AILOfEe2SvZPHD_e8Cg"/>
-                <children xsi:type="basic:PartStack" xmi:id="_50LMjLOfEe2SvZPHD_e8Cg" elementId="bottomLayout" containerData="4518" selectedElement="_50LMkLOfEe2SvZPHD_e8Cg">
+              <children xsi:type="basic:PartSashContainer" xmi:id="_50LMirOfEe2SvZPHD_e8Cg" containerData="7965" selectedElement="_50LMjLOfEe2SvZPHD_e8Cg">
+                <children xsi:type="advanced:Placeholder" xmi:id="_50LMi7OfEe2SvZPHD_e8Cg" elementId="org.eclipse.ui.editorss" containerData="4876" ref="_5z0AILOfEe2SvZPHD_e8Cg"/>
+                <children xsi:type="basic:PartStack" xmi:id="_50LMjLOfEe2SvZPHD_e8Cg" elementId="bottomLayout" containerData="5124" selectedElement="_50LMkLOfEe2SvZPHD_e8Cg">
                   <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_50LMjbOfEe2SvZPHD_e8Cg" elementId="org.talend.designer.core.ui.views.jobsettings.JobSettingsView" toBeRendered="false" ref="_50BbgbOfEe2SvZPHD_e8Cg" closeable="true">
                     <tags>View</tags>
@@ -83,7 +83,7 @@
                   </children>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_50LMkbOfEe2SvZPHD_e8Cg" elementId="paletteLayout" containerData="2174" selectedElement="_50LMkrOfEe2SvZPHD_e8Cg">
+              <children xsi:type="basic:PartStack" xmi:id="_50LMkbOfEe2SvZPHD_e8Cg" elementId="paletteLayout" containerData="2035" selectedElement="_50LMkrOfEe2SvZPHD_e8Cg">
                 <tags>Maven</tags>
                 <tags>Other</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_50LMkrOfEe2SvZPHD_e8Cg" elementId="org.eclipse.gef.ui.palette_view" ref="_50BbgLOfEe2SvZPHD_e8Cg" closeable="true">
@@ -2383,7 +2383,7 @@
   <addons xmi:id="_4sXP5LOfEe2SvZPHD_e8Cg" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_4sXP5bOfEe2SvZPHD_e8Cg" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_4ssnELOfEe2SvZPHD_e8Cg" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_dqOM4Lj9Ee2JjIZPX2DoLQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_wo8MgMEHEe2Qr6hw6H306g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_4tqQYLOfEe2SvZPHD_e8Cg" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="_4tqQYbOfEe2SvZPHD_e8Cg" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

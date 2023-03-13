@@ -1,9 +1,13 @@
-﻿namespace NLITE.ETL.API.Domain.Entities;
+﻿using Ardalis.GuardClauses;
+
+namespace NLITE.ETL.API.Domain.Entities;
 
 public class GameMetric : BaseEntity
 {
     public GameMetric(Guid categoryId, decimal minimum, decimal maximum, int score)
     {
+        Guard.Against.NullOrEmpty(categoryId);
+
         CategoryId = categoryId;
         Minimum = minimum;
         Maximum = maximum;

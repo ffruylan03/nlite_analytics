@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_n4wOgLP8Ee2SvZPHD_e8Cg" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_X-Pn0L6rEe2wYZwFeNil-g" comment="" name="filelist_src" prompt="filelist_src?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;C:/Users/Fermin/Projects/pif/repos/nlite_analytics/NLITE.ETL.Middleware/data/dump&quot;"/>
+    <contextParameter xmi:id="_X-Pn0b6rEe2wYZwFeNil-g" comment="" name="server" prompt="server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;localhost&quot;"/>
+    <contextParameter xmi:id="_X-Pn0r6rEe2wYZwFeNil-g" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;nliteetldb&quot;"/>
+    <contextParameter xmi:id="_X-Pn076rEe2wYZwFeNil-g" comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;postgres&quot;"/>
+    <contextParameter xmi:id="_X-Pn1L6rEe2wYZwFeNil-g" comment="" name="table" prompt="table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;radford&quot;"/>
+    <contextParameter xmi:id="_X-Pn1b6rEe2wYZwFeNil-g" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;P@ssw0rd1&quot;"/>
+    <contextParameter xmi:id="_X-Pn1r6rEe2wYZwFeNil-g" comment="" name="server_port" prompt="server_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;5432&quot;"/>
+    <contextParameter xmi:id="_X-Pn176rEe2wYZwFeNil-g" comment="" name="database_schema" prompt="database_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;public&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_n4wOhrP8Ee2SvZPHD_e8Cg" confirmationNeeded="false" name="prod">
+    <contextParameter xmi:id="_X-Pn2L6rEe2wYZwFeNil-g" comment="" name="filelist_src" prompt="filelist_src?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn2b6rEe2wYZwFeNil-g" comment="" name="server" prompt="server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn2r6rEe2wYZwFeNil-g" comment="" name="database" prompt="database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn276rEe2wYZwFeNil-g" comment="" name="userid" prompt="userid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn3L6rEe2wYZwFeNil-g" comment="" name="table" prompt="table?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn3b6rEe2wYZwFeNil-g" comment="" name="password" prompt="password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn3r6rEe2wYZwFeNil-g" comment="" name="server_port" prompt="server_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter xmi:id="_X-Pn376rEe2wYZwFeNil-g" comment="" name="database_schema" prompt="database_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

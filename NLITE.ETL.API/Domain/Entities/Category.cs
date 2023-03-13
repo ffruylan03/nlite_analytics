@@ -1,10 +1,15 @@
-﻿namespace NLITE.ETL.API.Domain.Entities;
+﻿using Ardalis.GuardClauses;
+
+namespace NLITE.ETL.API.Domain.Entities;
 
 public class Category : BaseEntity
 {
 
     public Category(string code, string description)
     {
+        Guard.Against.NullOrWhiteSpace(code);
+        Guard.Against.NullOrWhiteSpace(description);
+
         Code = code;
         Description = description;
     }

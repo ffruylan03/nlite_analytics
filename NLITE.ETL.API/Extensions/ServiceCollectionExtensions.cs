@@ -14,7 +14,7 @@ public static class ServiceCollectionExtensions
         services.AddEndpointsApiExplorer();
         services.AddOpenApiDocument(c =>
         {
-            c.Title = "NLITE Analytics";
+            c.Title = "NLITE File Upload";
             c.Version = "v1";
         });
 
